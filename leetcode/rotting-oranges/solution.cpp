@@ -11,7 +11,7 @@ public:
                 }
             }
         }
-        int maxtime=-1;
+        int maxtime=0;
         while(!q.empty()){
             auto ele=q.front();
             int row=ele.first.first;
